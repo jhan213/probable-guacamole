@@ -1,0 +1,42 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #e4d2ba;
+}
+
+header,
+.recipe:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+.recipe-image {
+  width: 480px;
+  height: 320px;
+  object-fit: cover;
+  padding: 1.5rem;
+}
+
+#tutorial {
+  font-size: 10px;
+  font-style: italic;
+}

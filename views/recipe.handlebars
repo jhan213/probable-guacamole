@@ -1,0 +1,22 @@
+<div class="text-center">
+  <h2>{{name}}</h2>
+  <p>{{upvoteFire upvotes}}</p>
+  {{!-- <p>{{{get_emoji}}}</p> --}}
+  <p>{{description}}</p>
+  <button id="upvote-btn" class="btn btn-primary" data-id="{{id}}">Like 👍</button>
+  <p>
+    Cost:
+    <span for="img" aria-label="money">💲</span>
+    <span class="dollar-amount">{{format_amount cost}}</span>
+  </p>
+  <img src="{{image}}" class="recipe-image" alt="image-unavailable">
+  <p>Ingredients: {{ingredients}}</p>
+  <h5>Instructions:</h5>
+  <p>{{instructions}}</p>
+  <p></p>
+  <p>Created by {{user.name}} on {{format_date date_created}}</p>
+</div>
+
+
+
+<script src="/js/recipe.js"></script>

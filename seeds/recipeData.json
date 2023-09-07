@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Pasta",
+    "description": "A pasta made with white pasta sauce.",
+    "ingredients": "Noodles, pasta sauce, choice of meat",
+    "instructions": "1. Cook noodles 2. Cook meat and add pasta sauce when meat is ready 3. Enjoy",
+    "cost": 40,
+    "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  {
+    "name": "Egg Fried Rice",
+    "description": "A cheap, fried rice meal for any time of the day",
+    "ingredients": "Rice, egg, oil",
+    "instructions": "1. Cook egg 2. Pour in rice 3. Put in oil and stir",
+    "data_created": "",
+    "cost": 20
+  }
+]
